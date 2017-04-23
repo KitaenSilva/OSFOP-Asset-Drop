@@ -1,0 +1,24 @@
+
+-----
+Time: 2015-04-01 00:16:33 +0800
+Memory Leak #<Sprite:0x9b657e8>
+In Scene Scene_Battle
+Creation Stack:: 
+Script 0086 -- Window_BattleLog, Line: 58:in `create_back_sprite'
+Script 0086 -- Window_BattleLog, Line: 19:in `initialize'
+Script 0155 -- Battle Luna, Line: 2696:in `initialize'
+Script 0175 -- GoBJ, Line: 171:in `new'
+Script 0175 -- GoBJ, Line: 171:in `new'
+Script 0117 -- Scene_Battle, Line: 187:in `create_log_window'
+Script 0117 -- Scene_Battle, Line: 160:in `create_all_windows'
+Script 0117 -- Scene_Battle, Line: 14:in `start'
+Script 0125 -- +Awesome Cool Fix, Line: 170:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0175 -- GoBJ, Line: 229:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0178 -- Main, Line: 7:in `block in <main>'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0178 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
